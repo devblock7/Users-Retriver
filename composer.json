@@ -1,0 +1,25 @@
+{
+    "name": "theo/users-retriver",
+    "description": "This package will help to retrive users information from https://reqres.in/",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Theo\\UsersRetriver\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Theo\\UsersRetriver\\UsersRetriverServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
